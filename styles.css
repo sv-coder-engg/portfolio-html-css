@@ -8,7 +8,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    margin: 0px
+    
 }
 
 hr {
@@ -106,3 +106,19 @@ hr {
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
 }
+
+/* Section  */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
