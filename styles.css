@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #7C3AED;
-    --off-white: #F3F4F6;
-    --dark-gray: #6B7280;
+    --primary-color: #FBBF24;
+    --off-white: #ffe68c;
+    --dark-gray: #6b7280bd;
 }
 
 body {
     font-family: "Montserrat", sans-serif;
+    background-color: #FAFAF9;
+    font-size: large;
+
     /* margin: 0px; */
 }
 
@@ -23,9 +26,7 @@ hr {
 
 /** container **/
 .container {
-    /* padding-left: 1rem;
-    padding-right: 1 rem; */
-    padding: 0rem 1rem;
+    padding: 1rem 0rem;
 }
 
 .container-center {
@@ -71,7 +72,7 @@ hr {
 
 .navigation {
     background-color: var(--primary-color);
-    color: white;
+    /* color: white; */
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 
@@ -86,7 +87,7 @@ hr {
 }
 
 .navigation .link {
-    color: white
+    color: black;
 }
 
 .navigation .link-active {
@@ -138,13 +139,15 @@ footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
+    color: black;
+    font-weight: bold;
     border-bottom-left-radius: 1rem;
 
 }
 
 .footer .link{
-    color:white;
+    color:black;
+    font-weight: bold;
 }
 .footer .footer-header{
     font-weight: bold;
