@@ -10,8 +10,9 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: #FAFAF9;
     font-size: large;
-
-    /* margin: 0px; */
+    margin:auto;
+    max-width: 90%;
+    width: 100%;
 }
 
 hr {
@@ -31,6 +32,7 @@ hr {
 
 .container-center {
     max-width: 600px;
+    width: 100%;
     margin: auto;
 }
 
@@ -80,7 +82,6 @@ hr {
     /* color: white; */
     padding: 1rem;
     border-bottom-left-radius: 1rem;
-
 }
 
 .navigation .nav-brand {
@@ -142,7 +143,7 @@ hr {
 
 footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
     color: black;
     font-weight: bold;
